@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Helpdesk Portfolio - Nida Firdous</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>IT Helpdesk Portfolio</h1>
+    <p>Basic ticket simulation system (HTML + CSS + JS)</p>
+  </header>
+
+  <section class="profile">
+    <h2>About Me</h2>
+    <p>
+      IT Support enthusiast with experience in troubleshooting, user support,
+      and basic web development. This project demonstrates a simple helpdesk ticket system.
+    </p>
+  </section>
+
+  <section class="ticket-box">
+    <h2>Create Support Ticket</h2>
+
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="text" id="issue" placeholder="Describe Issue">
+
+    <button onclick="createTicket()">Submit Ticket</button>
+  </section>
+
+  <section>
+    <h2>Submitted Tickets</h2>
+    <div id="ticketList"></div>
+  </section>
+
+  <footer>
+    <p>Built by Nida Firdous | IT Support & Web Learning Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
